@@ -4,16 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mudasir Hussain Bhat</title>
-  <meta name="description" content="Mudasir Hussain Bhat — PhD student in Computer Science & Information Engineering at National Taipei University. Computer vision, video understanding, multimodal learning and multi-camera tracking.">
+  <meta name="description" content="Mudasir Hussain Bhat is a PhD student at National Taipei University working on video understanding, vision–language models and multi-camera tracking.">
   <meta name="author" content="Mudasir Hussain Bhat">
   <meta property="og:type" content="profile">
-  <meta property="og:title" content="Mudasir Hussain Bhat — PhD Student, National Taipei University">
-  <meta property="og:description" content="Computer vision, video understanding, multimodal learning and multi-camera tracking.">
+  <meta property="og:title" content="Mudasir Hussain Bhat · PhD Student, National Taipei University">
+  <meta property="og:description" content="Video understanding, vision–language models and multi-camera tracking.">
+  <meta property="og:image" content="https://listenmudasir.github.io/images/pubs/tracevl.jpg">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="color-scheme" content="light dark">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23b5532f'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' font-weight='700' text-anchor='middle' fill='white'%3EMB%3C/text%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23192a3d'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='29' font-weight='700' text-anchor='middle' fill='%23f3a37f'%3EMB%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script type="application/ld+json">{
     "@context": "https://schema.org",
@@ -21,11 +23,8 @@
     "name": "Mudasir Hussain Bhat",
     "jobTitle": "PhD Student, Computer Science & Information Engineering",
     "affiliation": {"@type": "CollegeOrUniversity", "name": "National Taipei University"},
-    "email": "mailto:listenmudasir@gmail.com",
-    "sameAs": [
-      "https://github.com/listenmudasir",
-      "https://linkedin.com/in/mudasir-hussain-bhat"
-    ]
+    "url": "https://listenmudasir.github.io",
+    "sameAs": ["https://github.com/listenmudasir", "https://linkedin.com/in/mudasir-hussain-bhat"]
   }</script>
 </head>
 <body>
@@ -33,106 +32,136 @@
 
   <header class="topbar">
     <div class="wrap topbar-inner">
-      <a class="topbar-name" href="#top">Mudasir Hussain Bhat</a>
+      <a class="mark" href="#top" aria-label="Back to top">Mudasir Hussain Bhat</a>
       <nav aria-label="Sections">
         <a href="#news">News</a>
         <a href="#publications">Publications</a>
-        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main id="main" class="wrap">
-
-    <!-- ============ PROFILE ============ -->
-    <section class="profile" id="top">
-      <div class="photo">
-        <!-- Drop a square photo at images/profile.jpg and it will appear here automatically. -->
-        <img src="images/profile.jpg" alt="Portrait of Mudasir Hussain Bhat" width="168" height="168"
-             onerror="this.parentElement.classList.add('no-photo'); this.remove();">
-        <span class="initials" aria-hidden="true">MB</span>
-      </div>
-      <div class="intro">
+  <main id="main">
+    <!-- ================= HERO ================= -->
+    <section class="hero wrap" id="top">
+      <div class="hero-text">
+        <p class="eyebrow">PhD Student · National Taipei University</p>
         <h1>Mudasir Hussain Bhat</h1>
-        <p class="role">PhD Student · Computer Science &amp; Information Engineering<br>
-          <a href="https://www.ntpu.edu.tw/english/" target="_blank" rel="noopener">National Taipei University</a>, New Taipei City, Taiwan</p>
+        <p>I am a PhD student in Computer Science &amp; Information Engineering at
+          <a href="https://www.ntpu.edu.tw/english/" target="_blank" rel="noopener">National Taipei University</a>,
+          advised by <strong>Prof. Daw-Tung Lin</strong> in the Intelligent Multimedia Systems Lab (IMSLab).
+          I am currently also a computer vision intern at the
+          <a href="https://www.itri.org.tw/english/" target="_blank" rel="noopener">Industrial Technology Research Institute (ITRI)</a>.</p>
+        <p>I study how machines can understand <em>what happens</em> in video and <em>when</em> it happens.
+          My recent work builds change-aware vision–language models that find the onset of events in untrimmed
+          surveillance footage, graph-based reasoning over CLIP features for fine-grained attributes, and
+          tracking people across camera networks. I care about methods that stay reliable outside the benchmark:
+          under new cameras, new scenes, and real deployment constraints.</p>
+        <p>Previously, I received my M.S. from NTPU, with a thesis on multi-camera people tracking, and my B.Tech
+          from JSS Academy of Technical Education, India.</p>
         <ul class="links" aria-label="Profiles">
-          <li><a href="mailto:listenmudasir@gmail.com"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3z"/><path d="m3 7 9 6 9-6"/></svg>Email</a></li>
+          <li><a href="mailto:listenmudasir@gmail.com"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Email</a></li>
           <li><a href="https://github.com/listenmudasir" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4 1.5-4-2-6-2.5m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12 12 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>GitHub</a></li>
           <li><a href="https://linkedin.com/in/mudasir-hussain-bhat" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg>LinkedIn</a></li>
           <li><a href="https://scholar.ntpu.edu.tw/en/publications/a-region-aware-multi-modal-framework-forpedestrian-attribute-reco/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m2 9 10-5 10 5-10 5z"/><path d="M6 11v5c3 2 9 2 12 0v-5"/></svg>NTPU Scholar</a></li>
-          <!-- Add when available:
-          <li><a href="https://scholar.google.com/citations?user=XXXX">Google Scholar</a></li>
+          <!-- When available:
+          <li><a href="https://scholar.google.com/citations?user=XXXX" target="_blank" rel="noopener">Google Scholar</a></li>
           <li><a href="cv.pdf">CV</a></li>
           -->
         </ul>
       </div>
+      <figure class="portrait">
+        <!-- Put a portrait (about 4:5) at images/profile.jpg and it replaces the placeholder automatically. -->
+        <img src="images/profile.jpg" alt="Mudasir Hussain Bhat" width="300" height="375"
+             onerror="this.closest('.portrait').classList.add('empty'); this.remove();">
+        <div class="portrait-fallback" aria-hidden="true">MB</div>
+        <figcaption>New Taipei City, Taiwan</figcaption>
+      </figure>
     </section>
 
-    <section class="bio" aria-label="About">
-      <p>I am a PhD student in Computer Science &amp; Information Engineering at National Taipei University (NTPU),
-        working in the <strong>Intelligent Multimedia Systems Lab (IMSLab)</strong> under the supervision of
-        <strong>Prof. Daw-Tung Lin</strong>. My research is in computer vision and multimodal learning, with a focus on
-        understanding video in real-world conditions: localizing <em>when</em> events begin in surveillance footage,
-        reasoning over image regions with vision–language and graph models, and following people across camera networks.</p>
-      <p>I am also a computer vision intern at the <strong>Industrial Technology Research Institute (ITRI)</strong>,
-        where I work on detection, instance segmentation and real-time visual inspection for industrial conveyor systems.
-        Before the PhD, I received my M.S. from NTPU (2024) with a thesis on multi-camera people tracking, and my
-        B.Tech in Computer Science &amp; Engineering from JSS Academy of Technical Education, Noida, India (2021).</p>
-      <p class="interests"><span>Interests</span>
-        Video understanding &amp; temporal localization · Vision–language &amp; multimodal learning ·
-        Multi-object / multi-camera tracking &amp; re-ID · Industrial visual inspection</p>
+    <!-- ================= THEMES ================= -->
+    <section class="wrap themes" aria-label="Research themes">
+      <div class="theme">
+        <span class="theme-num">01</span>
+        <h3>Temporal video understanding</h3>
+        <p>Detecting events in long, untrimmed video and localizing precisely when they begin.</p>
+      </div>
+      <div class="theme">
+        <span class="theme-num">02</span>
+        <h3>Vision–language &amp; multimodal learning</h3>
+        <p>Adapting CLIP / SigLIP-style models with text priors, graphs and parameter-efficient tuning.</p>
+      </div>
+      <div class="theme">
+        <span class="theme-num">03</span>
+        <h3>Tracking &amp; visual inspection</h3>
+        <p>Multi-camera people tracking, re-identification, and real-time industrial vision systems.</p>
+      </div>
     </section>
 
-    <!-- ============ NEWS ============ -->
-    <section id="news">
+    <!-- ================= NEWS ================= -->
+    <section class="wrap block" id="news">
       <h2>News</h2>
       <ul class="news">
-        <li><time>Jun 2026</time><span>Started a computer vision internship at <strong>ITRI</strong> (Materials and Chemical Research Laboratories), Taiwan.</span></li>
-        <li><time>2026</time><span>Our paper on onset-centric start-time estimation for illegal waste dumping was published at the <strong>WasteVision workshop @ IEEE/CVF WACV 2026</strong>.</span></li>
-        <li><time>Sep 2025</time><span>Presented our region-aware CLIP + GNN framework for pedestrian attribute recognition at <strong>CAIP 2025</strong>, Las Palmas de Gran Canaria, Spain.</span></li>
-        <li><time>2025</time><span>Achieved competitive results in the <strong>PAR 2025</strong> Pedestrian Attribute Recognition Challenge.</span></li>
-        <li><time>Feb 2025</time><span>Began my PhD in Computer Science &amp; Information Engineering at NTPU.</span></li>
-        <li><time>2024</time><span>Completed my M.S. at NTPU; participated in the <strong>8th AI City Challenge</strong> (Track 1, multi-camera people tracking).</span></li>
+        <li><time>2026</time><p><span class="hl">TRACE-VL</span>, our change-aware vision–language model for illegal dumping detection and onset estimation, is accepted to <strong>WACV 2027</strong>.</p></li>
+        <li><time>Jun 2026</time><p>Started a computer vision internship at <strong>ITRI</strong> (Materials and Chemical Research Laboratories).</p></li>
+        <li><time>2026</time><p>Onset-centric temporal detection paper published at the <strong>WasteVision workshop @ WACV 2026</strong>.</p></li>
+        <li><time>Sep 2025</time><p>Presented our CLIP + GNN pedestrian attribute recognition framework at <strong>CAIP 2025</strong> in Las Palmas de Gran Canaria, Spain.</p></li>
+        <li><time>Feb 2025</time><p>Started my PhD at National Taipei University.</p></li>
+        <li class="more"><time>2024</time><p>Completed my M.S. and competed in the <strong>8th AI City Challenge</strong> (Track 1: multi-camera people tracking).</p></li>
       </ul>
     </section>
 
-    <!-- ============ PUBLICATIONS ============ -->
-    <section id="publications">
-      <h2>Publications</h2>
-      <p class="section-note">* Links point to the official publisher records.</p>
+    <!-- ================= PUBLICATIONS ================= -->
+    <section class="wrap block" id="publications">
+      <div class="block-head">
+        <h2>Publications</h2>
+        <p>Peer-reviewed papers. <span class="me-key">Highlighted</span> = representative work.</p>
+      </div>
 
-      <article class="pub">
-        <div class="pub-thumb" aria-hidden="true">
-          <svg viewBox="0 0 200 130">
-            <rect width="200" height="130" fill="var(--thumb-bg)"/>
-            <g>
-              <rect x="12" y="18" width="40" height="56" rx="2" fill="var(--thumb-a)"/>
-              <rect x="56" y="18" width="40" height="56" rx="2" fill="var(--thumb-a)"/>
-              <rect x="100" y="18" width="40" height="56" rx="2" fill="var(--thumb-b)"/>
-              <rect x="144" y="18" width="40" height="56" rx="2" fill="var(--thumb-b)"/>
-            </g>
-            <line x1="12" y1="92" x2="184" y2="92" stroke="var(--thumb-line)" stroke-width="1.5"/>
-            <g stroke="var(--thumb-line)" stroke-width="1">
-              <line x1="12" y1="88" x2="12" y2="96"/><line x1="55" y1="88" x2="55" y2="96"/><line x1="98" y1="88" x2="98" y2="96"/><line x1="141" y1="88" x2="141" y2="96"/><line x1="184" y1="88" x2="184" y2="96"/>
-            </g>
-            <line x1="98" y1="14" x2="98" y2="100" stroke="var(--accent)" stroke-width="2.5"/>
-            <circle cx="98" cy="92" r="4.5" fill="var(--accent)"/>
-            <text x="98" y="118" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="var(--accent)">event onset t₀</text>
-          </svg>
-        </div>
+      <!-- TRACE-VL -->
+      <article class="pub featured">
+        <a class="pub-fig" href="images/pubs/tracevl.jpg" target="_blank" rel="noopener" aria-label="Open TRACE-VL figure">
+          <img src="images/pubs/tracevl.jpg" alt="Frames from four surveillance videos: one dumping event with its onset highlighted, and three visually similar non-dumping activities." loading="lazy" width="1400" height="562">
+        </a>
         <div class="pub-body">
-          <h3><a href="https://doi.org/10.1109/WACVW68408.2026.00072" target="_blank" rel="noopener">Boundary-Sensitive Start-Time Estimation with Onset-centric Temporal Detection for Illegal Waste Dumping in Surveillance Video</a></h3>
-          <p class="authors"><strong class="me">Mudasir Hussain Bhat</strong>, Daw-Tung Lin</p>
-          <p class="venue"><em>IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW)</em>, WasteVision, 2026</p>
-          <p class="tldr">Instead of only flagging a clip, we estimate the moment a dumping event begins, combining a VideoMAE spatiotemporal encoder with motion and scene-change cues, explicit state-transition reasoning and multi-view temporal voting.</p>
+          <div class="badges"><span class="venue-badge">WACV 2027</span></div>
+          <h3>TRACE-VL: Change-Aware Vision–Language Modeling for Illegal Waste Dumping Detection and Onset Estimation</h3>
+          <p class="authors"><span class="me">Mudasir Hussain Bhat</span>, Daw-Tung Lin</p>
+          <p class="venue">IEEE/CVF Winter Conference on Applications of Computer Vision (<b>WACV</b>), 2027</p>
+          <p class="tldr">Dumping and legitimate waste handling look alike in motion; they differ in what stays behind. TRACE-VL models that outcome with persistence contrasts on SigLIP 2 features, text-initialized event queries and a calibrated onset posterior.</p>
+          <div class="pub-links">
+            <button class="chip" type="button" data-toggle="abs-tracevl" aria-expanded="false">Abstract</button>
+            <button class="chip" type="button" data-toggle="bib-tracevl" aria-expanded="false">BibTeX</button>
+          </div>
+          <div class="drawer" id="abs-tracevl" hidden><p>Recognizing the illegal dumping of waste in surveillance video requires deciding whether an act of disposal occurred and when it began. Dumping and legitimate handling of waste often involve similar motion and differ in their outcome: whether an object stays behind once the actor has left. We present TRACE-VL, which represents this outcome explicitly. Frame embeddings from a frozen SigLIP 2 encoder with low-rank adapters are augmented with persistence contrasts between the scene shortly after and shortly before each instant, encoded at two temporal rates, and decoded by event queries initialized from textual descriptions of dumping and of the activities with which it is confused. The onset is reported as the time whose scoring window most probably contains the true onset, under a posterior that combines frame-level evidence with an onset prior, and all decision parameters are calibrated on scene-disjoint out-of-fold predictions. On the 100-video MIVIA-IWDD validation set, the proposed approach achieves an F1 score of 0.788 and an ROC AUC of 0.903 for video-level detection. Evaluation on the held-out private test set yields an F1 score of 0.405, highlighting the challenges of generalization across surveillance environments.</p></div>
+          <pre class="drawer bibtex" id="bib-tracevl" hidden>@inproceedings{bhat2027tracevl,
+  title     = {{TRACE-VL}: Change-Aware Vision--Language Modeling for Illegal Waste Dumping Detection and Onset Estimation},
+  author    = {Bhat, Mudasir Hussain and Lin, Daw-Tung},
+  booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  year      = {2027}
+}</pre>
+        </div>
+      </article>
+
+      <!-- WACVW 2026 -->
+      <article class="pub">
+        <a class="pub-fig" href="images/pubs/onset-wacvw26.jpg" target="_blank" rel="noopener" aria-label="Open onset-centric framework figure">
+          <img src="images/pubs/onset-wacvw26.jpg" alt="Overview of the onset-centric temporal detection framework: multi-view clip sampling, a VideoMAE backbone with motion-aware and transition reasoning modules, and aggregated onset prediction." loading="lazy" width="1400" height="793">
+        </a>
+        <div class="pub-body">
+          <div class="badges"><span class="venue-badge alt">WACVW 2026</span></div>
+          <h3>Boundary-Sensitive Start-Time Estimation with Onset-centric Temporal Detection for Illegal Waste Dumping in Surveillance Video</h3>
+          <p class="authors"><span class="me">Mudasir Hussain Bhat</span>, Daw-Tung Lin</p>
+          <p class="venue">IEEE/CVF WACV Workshops (WasteVision), 2026</p>
+          <p class="tldr">Treats dumping detection as boundary-sensitive temporal localization, combining a VideoMAE encoder with motion cues and explicit scene-state transition reasoning. D<sub>norm</sub> 0.79 on the IWDD 2026 private test set.</p>
           <div class="pub-links">
             <a class="chip" href="https://doi.org/10.1109/WACVW68408.2026.00072" target="_blank" rel="noopener">Paper</a>
-            <button class="chip" type="button" data-bib="bib-wacvw26" aria-expanded="false">BibTeX</button>
+            <button class="chip" type="button" data-toggle="abs-wacvw26" aria-expanded="false">Abstract</button>
+            <button class="chip" type="button" data-toggle="bib-wacvw26" aria-expanded="false">BibTeX</button>
           </div>
-          <pre class="bibtex" id="bib-wacvw26" hidden>@inproceedings{bhat2026boundary,
+          <div class="drawer" id="abs-wacvw26" hidden><p>Detecting illegal waste dumping in surveillance video is challenging due to weak visual cues, untrimmed video streams, and the need for precise temporal localization. In this work, we formulate illegal waste dumping detection as a boundary-sensitive temporal action localization problem, where accurate estimation of the event onset is critical. We propose an onset-centric temporal detection framework that combines motion-aware temporal encoding with explicit scene-state transition reasoning to localize semantically meaningful onset boundaries. The method integrates learned temporal representations with pre-/post-event comparison cues to handle sparse and short-lived dumping actions. Experiments on the IWDD 2026 benchmark show that the proposed approach attains an official private test F1-score of 0.42 with a D<sub>norm</sub> score of 0.79, demonstrating precise onset localization under strict temporal tolerances in real-world surveillance conditions.</p></div>
+          <pre class="drawer bibtex" id="bib-wacvw26" hidden>@inproceedings{bhat2026boundary,
   title     = {Boundary-Sensitive Start-Time Estimation with Onset-centric Temporal Detection for Illegal Waste Dumping in Surveillance Video},
   author    = {Bhat, Mudasir Hussain and Lin, Daw-Tung},
   booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops},
@@ -143,36 +172,25 @@
         </div>
       </article>
 
+      <!-- CAIP 2025 -->
       <article class="pub">
-        <div class="pub-thumb" aria-hidden="true">
-          <svg viewBox="0 0 200 130">
-            <rect width="200" height="130" fill="var(--thumb-bg)"/>
-            <rect x="14" y="22" width="44" height="86" rx="6" fill="var(--thumb-a)"/>
-            <circle cx="36" cy="38" r="8" fill="var(--thumb-b)"/>
-            <path d="M24 60q12-10 24 0v40H24z" fill="var(--thumb-b)"/>
-            <rect x="18" y="28" width="36" height="20" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="3 2"/>
-            <rect x="18" y="52" width="36" height="28" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="3 2"/>
-            <rect x="18" y="82" width="36" height="22" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="3 2"/>
-            <g stroke="var(--thumb-line)" stroke-width="1.2">
-              <line x1="58" y1="38" x2="110" y2="30"/><line x1="58" y1="66" x2="110" y2="65"/><line x1="58" y1="93" x2="110" y2="100"/>
-              <line x1="110" y1="30" x2="162" y2="48"/><line x1="110" y1="65" x2="162" y2="48"/><line x1="110" y1="65" x2="162" y2="86"/><line x1="110" y1="100" x2="162" y2="86"/><line x1="110" y1="30" x2="110" y2="100"/>
-            </g>
-            <circle cx="110" cy="30" r="9" fill="var(--accent)"/><circle cx="110" cy="65" r="9" fill="var(--accent)"/><circle cx="110" cy="100" r="9" fill="var(--accent)"/>
-            <rect x="152" y="38" width="36" height="20" rx="4" fill="var(--thumb-b)"/><rect x="152" y="76" width="36" height="20" rx="4" fill="var(--thumb-b)"/>
-            <text x="170" y="52" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="700" fill="var(--thumb-text)">GNN</text>
-            <text x="170" y="90" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="700" fill="var(--thumb-text)">attr.</text>
-          </svg>
-        </div>
+        <a class="pub-fig" href="images/pubs/par-caip25.jpg" target="_blank" rel="noopener" aria-label="Open pedestrian attribute recognition figure">
+          <img src="images/pubs/par-caip25.jpg" alt="System overview: CLIP image and text encoders produce full-body and lower-body visual–text embeddings that feed a GNN multi-task attribute classifier." loading="lazy" width="1400" height="569">
+        </a>
         <div class="pub-body">
-          <h3><a href="https://doi.org/10.1007/978-3-032-04968-1_4" target="_blank" rel="noopener">A Region-Aware Multi-modal Framework for Pedestrian Attribute Recognition via CLIP and Graph Neural Networks</a></h3>
-          <p class="authors"><strong class="me">Mudasir Hussain Bhat</strong>, Daw-Tung Lin</p>
-          <p class="venue"><em>Computer Analysis of Images and Patterns (CAIP 2025)</em>, Springer LNCS 15621</p>
-          <p class="tldr">Region-level CLIP visual–textual features are organised into a graph and refined with graph neural networks, letting the model reason about which body regions support each pedestrian attribute. Developed for the PAR 2025 Challenge.</p>
+          <div class="badges"><span class="venue-badge alt">CAIP 2025</span></div>
+          <h3>A Region-Aware Multi-modal Framework for Pedestrian Attribute Recognition via CLIP and Graph Neural Networks</h3>
+          <p class="authors"><span class="me">Mudasir Hussain Bhat</span>, Daw-Tung Lin</p>
+          <p class="venue">Computer Analysis of Images and Patterns (CAIP), Springer LNCS 15621</p>
+          <p class="tldr">Full-body and lower-body CLIP features are matched against 160 attribute prompts and passed to a graph attention classifier that models dependencies between attributes. 69.8% mean accuracy on the PAR 2025 private test set.</p>
           <div class="pub-links">
             <a class="chip" href="https://doi.org/10.1007/978-3-032-04968-1_4" target="_blank" rel="noopener">Paper</a>
-            <button class="chip" type="button" data-bib="bib-caip25" aria-expanded="false">BibTeX</button>
+            <a class="chip" href="https://github.com/listenmudasir/PAR-2025" target="_blank" rel="noopener">Code</a>
+            <button class="chip" type="button" data-toggle="abs-caip25" aria-expanded="false">Abstract</button>
+            <button class="chip" type="button" data-toggle="bib-caip25" aria-expanded="false">BibTeX</button>
           </div>
-          <pre class="bibtex" id="bib-caip25" hidden>@inproceedings{bhat2025region,
+          <div class="drawer" id="abs-caip25" hidden><p>Pedestrian Attribute Recognition (PAR) is a fundamental task in surveillance and intelligent vision systems, aiming to identify attributes such as clothing color, gender, and accessories carried from pedestrian images. In this paper, we propose a region-aware, prompt-guided, and graph-based multi-task framework developed as a solution to the PAR 2025 Contest. Our method integrates a fully fine-tuned CLIP ViT-B/32 vision-language encoder with a Graph Attention Network (GAT)-based classifier that models inter-attribute dependencies through attention-driven message passing. The system extracts visual features from both full-body and lower-body views, computes similarity scores with a curated set of 160 handcrafted textual prompts, and feeds these semantically aligned representations into a graph-based classifier. Evaluated on the private test set, our framework achieves a mean accuracy of 69.8%, demonstrating strong generalization and robustness under real-world conditions.</p></div>
+          <pre class="drawer bibtex" id="bib-caip25" hidden>@inproceedings{bhat2025region,
   title     = {A Region-Aware Multi-modal Framework for Pedestrian Attribute Recognition via {CLIP} and Graph Neural Networks},
   author    = {Bhat, Mudasir Hussain and Lin, Daw-Tung},
   booktitle = {Computer Analysis of Images and Patterns (CAIP 2025)},
@@ -187,88 +205,106 @@
       </article>
     </section>
 
-    <!-- ============ RESEARCH PROJECTS ============ -->
-    <section id="research">
-      <h2>Research Projects</h2>
-      <div class="projects">
-        <article class="project">
+    <!-- ================= PROJECTS ================= -->
+    <section class="wrap block" id="projects">
+      <div class="block-head">
+        <h2>Projects &amp; Open Source</h2>
+        <p>Challenge entries, theses and tools I have released.</p>
+      </div>
+      <div class="cards">
+        <a class="card" href="https://listenmudasir.github.io/cnn-foundations-lab/" target="_blank" rel="noopener">
+          <span class="card-kind">Teaching · Live demo</span>
+          <h3>CNN Foundations Lab</h3>
+          <p>An interactive, zero-install course on convolutional networks. A real CNN trains in the browser, and you can inspect its tensors at every layer.</p>
+          <span class="card-go">Open lab →</span>
+        </a>
+        <a class="card" href="https://github.com/listenmudasir/filter-annotation-refiner" target="_blank" rel="noopener">
+          <span class="card-kind">Tool · Python</span>
+          <h3>Filter Annotation Refiner</h3>
+          <p>Turns YOLO detection boxes into segmentation datasets with SAM 2.1 masks, per-object quality scores and visual QA reports.</p>
+          <span class="card-go">GitHub →</span>
+        </a>
+        <a class="card" href="https://github.com/listenmudasir/temporal-leakage-aware-data-splitting" target="_blank" rel="noopener">
+          <span class="card-kind">Guide</span>
+          <h3>Temporal-leakage-aware data splitting</h3>
+          <p>A practical guide to building train, validation and test splits for video and sequential vision datasets without leaking time.</p>
+          <span class="card-go">GitHub →</span>
+        </a>
+        <div class="card">
+          <span class="card-kind">M.S. thesis · AI City Challenge 2024</span>
           <h3>Multi-camera people tracking</h3>
-          <p class="meta">M.S. thesis · 8th AI City Challenge 2024, Track 1</p>
-          <p>Tracklet refinement to reduce identity switches, followed by clustering with appearance features and
-            spatio-temporal cues for cross-camera association. Thesis: <em>Leveraging Tracklet Refinement and
-            Clustering for Multi-Camera People Tracking</em>.</p>
-        </article>
-        <article class="project">
-          <h3>Gaze estimation for under-display-camera images</h3>
-          <p class="meta">IMSLab · Human-centred interaction</p>
-          <p>A pipeline for degraded under-display-camera (UDC) images: SCUNet restoration, MobileViT face and eye
-            detection, and geometric modelling of gaze direction for smart-cockpit interaction.</p>
-        </article>
-        <article class="project">
+          <p>Tracklet refinement to reduce identity switches, plus clustering on appearance and spatio-temporal cues for cross-camera association.</p>
+        </div>
+        <div class="card">
+          <span class="card-kind">IMSLab · Human-centred AI</span>
+          <h3>Gaze estimation on under-display-camera images</h3>
+          <p>SCUNet restoration, MobileViT face and eye detection, and geometric gaze modelling for smart-cockpit interaction.</p>
+        </div>
+        <div class="card">
+          <span class="card-kind">ITRI · Applied research</span>
           <h3>Industrial visual inspection</h3>
-          <p class="meta">ITRI · Applied research</p>
-          <p>Camera-based sorting and inline inspection for conveyor systems: object detection, instance segmentation,
-            tracking, and TensorRT deployment for real-time operation. Described at a non-confidential level.</p>
-        </article>
+          <p>Detection, instance segmentation, tracking and TensorRT deployment for real-time conveyor sorting and inspection.</p>
+        </div>
       </div>
     </section>
 
-    <!-- ============ EXPERIENCE & EDUCATION ============ -->
-    <section id="experience">
+    <!-- ================= EXPERIENCE ================= -->
+    <section class="wrap block" id="experience">
       <h2>Education &amp; Experience</h2>
-      <ul class="cv">
-        <li><time>2025 – now</time><div><strong>Ph.D., Computer Science &amp; Information Engineering</strong><span>National Taipei University · IMSLab · Advisor: Prof. Daw-Tung Lin</span></div></li>
-        <li><time>2026 – now</time><div><strong>Computer Vision Intern</strong><span>Industrial Technology Research Institute (ITRI), Materials and Chemical Research Laboratories</span></div></li>
-        <li><time>2022 – 2024</time><div><strong>M.S., Computer Science &amp; Information Engineering</strong><span>National Taipei University · Thesis on multi-camera people tracking</span></div></li>
-        <li><time>2017 – 2021</time><div><strong>B.Tech, Computer Science &amp; Engineering</strong><span>JSS Academy of Technical Education, Noida, India</span></div></li>
-      </ul>
+      <ol class="timeline">
+        <li><div><h3>National Taipei University</h3><p>Ph.D., Computer Science &amp; Information Engineering · IMSLab · Advisor: Prof. Daw-Tung Lin</p></div><time>2025 – present</time></li>
+        <li><div><h3>Industrial Technology Research Institute (ITRI)</h3><p>Computer Vision Intern · Materials and Chemical Research Laboratories</p></div><time>2026 – present</time></li>
+        <li><div><h3>National Taipei University</h3><p>M.S., Computer Science &amp; Information Engineering · Thesis: <em>Leveraging Tracklet Refinement and Clustering for Multi-Camera People Tracking</em></p></div><time>2022 – 2024</time></li>
+        <li><div><h3>JSS Academy of Technical Education, Noida, India</h3><p>B.Tech, Computer Science &amp; Engineering</p></div><time>2017 – 2021</time></li>
+      </ol>
 
-      <div class="two-col">
+      <div class="split">
         <div>
-          <h3 class="sub">Teaching</h3>
+          <h2 class="h2-sm">Teaching</h2>
           <ul class="plain">
-            <li><strong>Teaching Assistant</strong>, Artificial Neural Networks and Deep Learning<br><span class="muted">Dept. of CSIE, National Taipei University · Fall 2023</span></li>
+            <li><strong>Teaching Assistant</strong>, Artificial Neural Networks and Deep Learning<span>NTPU CSIE · Fall 2023</span></li>
           </ul>
         </div>
         <div>
-          <h3 class="sub">Honors</h3>
+          <h2 class="h2-sm">Honors</h2>
           <ul class="plain">
-            <li><strong>EECS Graduate Scholarship</strong> (full funding), National Taipei University<br><span class="muted">2022 – 2024</span></li>
-            <li><strong>PMSSS Undergraduate Merit Scholarship</strong>, AICTE, India<br><span class="muted">2017 – 2021</span></li>
+            <li><strong>EECS Graduate Scholarship</strong> (full funding), National Taipei University<span>2022 – 2024</span></li>
+            <li><strong>PMSSS Undergraduate Merit Scholarship</strong>, AICTE, India<span>2017 – 2021</span></li>
           </ul>
         </div>
       </div>
-    </section>
-
-    <!-- ============ CONTACT ============ -->
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>I am happy to talk about research, collaborations, or applied computer vision problems.
-        The best way to reach me is by email: <a href="mailto:listenmudasir@gmail.com">listenmudasir@gmail.com</a>.</p>
-      <p class="muted">Intelligent Multimedia Systems Lab, Dept. of Computer Science &amp; Information Engineering,
-        National Taipei University, New Taipei City, Taiwan.</p>
     </section>
   </main>
 
-  <footer class="wrap footer">
-    <span>© <span id="year">2026</span> Mudasir Hussain Bhat</span>
-    <span>Last updated November 2026</span>
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <p>Open to research conversations and collaborations: <a href="mailto:listenmudasir@gmail.com">listenmudasir@gmail.com</a></p>
+      <p class="muted">© <span id="year">2026</span> Mudasir Hussain Bhat · Last updated November 2026</p>
+    </div>
   </footer>
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
-    document.querySelectorAll('[data-bib]').forEach(function (btn) {
+    var bar = document.querySelector('.topbar');
+    var onScroll = function () { bar.classList.toggle('scrolled', window.scrollY > 8); };
+    window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+    document.querySelectorAll('[data-toggle]').forEach(function (btn) {
       btn.addEventListener('click', function () {
-        var pre = document.getElementById(btn.dataset.bib);
-        var open = pre.hidden;
-        pre.hidden = !open;
-        btn.setAttribute('aria-expanded', String(open));
-        btn.classList.toggle('on', open);
-        if (open && navigator.clipboard) {
-          navigator.clipboard.writeText(pre.textContent).then(function () {
-            btn.textContent = 'BibTeX · copied';
-            setTimeout(function () { btn.textContent = 'BibTeX'; }, 1800);
-          }).catch(function () {});
+        var target = document.getElementById(btn.dataset.toggle);
+        var opening = target.hidden;
+        // one drawer open per paper
+        btn.closest('.pub-body').querySelectorAll('[data-toggle]').forEach(function (other) {
+          var t = document.getElementById(other.dataset.toggle);
+          t.hidden = true; other.classList.remove('on'); other.setAttribute('aria-expanded', 'false');
+        });
+        if (opening) {
+          target.hidden = false; btn.classList.add('on'); btn.setAttribute('aria-expanded', 'true');
+          if (target.classList.contains('bibtex') && navigator.clipboard) {
+            navigator.clipboard.writeText(target.textContent).then(function () {
+              var label = btn.textContent; btn.textContent = 'Copied ✓';
+              setTimeout(function () { btn.textContent = label; }, 1500);
+            }).catch(function () {});
+          }
         }
       });
     });
