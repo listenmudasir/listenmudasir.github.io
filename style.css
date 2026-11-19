@@ -102,6 +102,10 @@ h2 { font: 600 1.9rem/1.2 var(--serif); letter-spacing: -.02em; color: var(--nav
 .news p { margin: 0; color: var(--text-2); }
 .news strong { color: var(--text); }
 .hl { color: var(--accent); font-weight: 600; }
+.news li.with-photo { grid-template-columns: 96px 1fr 104px; align-items: start; }
+.news-photo { display: block; border-radius: 10px; overflow: hidden; border: 1px solid var(--line); box-shadow: var(--shadow); transition: transform .2s; }
+.news-photo:hover { transform: translateY(-2px); }
+.news-photo img { display: block; width: 100%; height: auto; }
 
 /* publications */
 .pub { display: grid; grid-template-columns: 330px 1fr; gap: 32px; padding: 26px; margin: 0 -26px; border-radius: 16px; border: 1px solid transparent; }
@@ -177,7 +181,8 @@ a.card:hover { text-decoration: none; border-color: var(--accent); transform: tr
   .theme + .theme { border-top: 1px solid var(--line); }
   .block { padding-top: 52px; }
   h2 { font-size: 1.6rem; }
-  .news li { grid-template-columns: 1fr; gap: 0; }
+  .news li, .news li.with-photo { grid-template-columns: 1fr; gap: 0; }
+  .news-photo { width: 140px; margin-top: 10px; }
   .pub { grid-template-columns: 1fr; gap: 16px; padding: 18px; margin: 0 -18px; }
   .cards { grid-template-columns: 1fr; }
   .timeline li { flex-direction: column; gap: 2px; }
